@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "ChracterChangeControl",
+    "maps": [
+        {
+            "name": "CharacterChange",
+            "id": "b5b37b74-2042-44b4-82c2-db8cf3527e36",
+            "actions": [
+                {
+                    "name": "Change1",
+                    "type": "Button",
+                    "id": "3dd49a8e-5655-45fc-933a-552d0bf9b2ec",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Change2",
+                    "type": "Button",
+                    "id": "74136cd7-521f-4948-9f1c-c3e8a0b5fd03",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "10217db5-3126-40fd-af89-356c1cb89cc3",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Change1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3324d925-f486-4362-9f22-d60a9028ee3f",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Change2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
